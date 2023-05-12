@@ -1,3 +1,5 @@
+'''If the value of a variable is varied from object to object, then such type of variables are called instance variables.
+For every object a separate copy of instance variables will be created.'''
 class Person:
     def __init__(self, name, adddress,age):
         self.name = name
