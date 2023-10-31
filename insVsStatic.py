@@ -1,5 +1,5 @@
 class Student():
-    faculty = "BCA"
+    faculty = "BCA"  # yaslai chai class variable pani vando raixa
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
